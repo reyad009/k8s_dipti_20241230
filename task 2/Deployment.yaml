@@ -7,3 +7,23 @@ spec:
   selector:
     matchLabels:
       app: shared-empty-dir
+  template:
+    metadata:
+      labels:
+        app: shared-empty-dir
+    spec:
+      containers:
+      - name: container1
+        image: alpine
+        volumeMounts:
+        - name: shared-storage
+      - name: container2
+        image: alpine
+        volumeMounts:
+        - name: shared-storage
+      - name: container3
+        image: alpine
+        volumeMounts:
+        - name: shared-storage
+      volumes:
+      - name: shared-storage
