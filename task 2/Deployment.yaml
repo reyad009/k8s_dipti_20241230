@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: shared-empty-dir
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: shared-empty-dir
