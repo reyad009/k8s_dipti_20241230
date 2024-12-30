@@ -1,5 +1,5 @@
 # k8s_dipti_20241230
-task 1
+# task 1
 - create a kubernetes configmap
 	- where data is name = yourname
 
@@ -13,8 +13,8 @@ task 1
 		- loop continues forever
 	
 **submit the yaml file**
-///////
-task 2
+
+ # task 2
 - Create a deployment named shared-empty-dir
 - should have 3 containers
 	- container1
@@ -32,8 +32,8 @@ task 2
 - every container should share volume with empty directory mechanism.
 
 **submit the yaml file**
-///////
-task 3
+
+# task 3
 - write a deployment file with httpd image
 - write a clusterip service for it
 - write a ingress file for service
