@@ -15,12 +15,6 @@ spec:
     containers:
      - name: alpine
      image: alpine
-     command: ["/bin/sh", "-c"]
-       args:
-         - while true; do echo "$(cat /config/name)"; sleep 5; done
-     volumeMounts:
-     - name: config-volume
-     mountPath: /config
      volumes:
      - name: config-volume
       configMap:
