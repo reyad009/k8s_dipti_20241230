@@ -1,4 +1,4 @@
-# k8s_dipti_20241230
+# kubernetes exam dipti date-2024.12.30
 # task 1
 - create a kubernetes configmap
 	- where data is name = yourname
